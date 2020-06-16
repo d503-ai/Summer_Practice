@@ -1,5 +1,4 @@
 Code:
 
 def first_word(text: str) -> str:
-    result = text.split()
-    return result[0]
+    return text.split()[0]
