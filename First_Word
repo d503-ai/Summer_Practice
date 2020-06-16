@@ -1,0 +1,5 @@
+Code:
+
+def first_word(text: str) -> str:
+    result = text.split()
+    return result[0]
