@@ -1,4 +1,5 @@
 Code:
 
+import math
 def number_length(a: int) -> int:
-    return len(str(abs(a)))
+    return int(math.log10(a)) + 1 if a else 1
