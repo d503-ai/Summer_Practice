@@ -1,4 +1,4 @@
-# Projects from https://py.checkio.org during summer practice time.
+# Projects from https://py.checkio.org/group/khai/ during summer practice time.
 
 My tasks:
 
