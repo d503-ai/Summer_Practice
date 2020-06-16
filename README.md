@@ -3,7 +3,7 @@
 My tasks:
 
 - [ ] Complete my projects;
-- [x] Learn how to work with them via GitHub.
+- [x] Learn how to work with projects via GitHub.
 
 Completed projects:
 
