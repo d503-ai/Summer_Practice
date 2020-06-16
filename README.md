@@ -2,7 +2,7 @@
 
 My tasks:
 
-- [ ] \(Optional) Complete my projects;
+- [ ] Complete my projects;
 - [x] Learn how to work with them via GitHub.
 
 Completed projects:
