@@ -5,7 +5,7 @@ My tasks:
 - [ ] Complete Elementary projects;
 - [x] Learn how to GitHub.
 
-***Code of projects placed under exercise's name*** 
+***Code of projects placed under exercise's name or in separated files*** 
 
 Completed projects:
 
@@ -61,4 +61,11 @@ def is_all_upper(text: str) -> bool:
             return False
         else:
             return True
+```
+- [x] Replace First
+```Python
+def replace_first(items: list) -> Iterable:
+    if items:
+        items += [items.pop(0)]
+    return items
 ```
