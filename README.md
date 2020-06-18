@@ -92,3 +92,8 @@ def split_pairs(a):
 def beginning_zeros(number: str) -> int:
     return len(number) - len(number.lstrip('0'))
 ```
+- [x] Nearest Value
+```Python
+def nearest_value(values: set, one: int) -> int:
+    return min(values, key=lambda x: (abs(one - x), x))
+```
