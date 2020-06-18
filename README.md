@@ -69,3 +69,8 @@ def replace_first(items: list) -> Iterable:
         items += [items.pop(0)]
     return items
 ```
+- [x] Max Digit
+```Python
+def max_digit(number: int) -> int:
+    return int(max(str(number)))
+```
