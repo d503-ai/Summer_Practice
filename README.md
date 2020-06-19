@@ -102,3 +102,11 @@ def nearest_value(values: set, one: int) -> int:
 def between_markers(text: str, begin: str, end: str) -> str:
     return text[text.index(begin)+1:text.index(end)]
 ```
+- [x] Correct Sentence
+```Python
+def correct_sentence(text: str) -> str:
+    string = text[0].upper() + text[1:]
+    if string[-1] != ".":
+        string += "."
+    return string
+```
