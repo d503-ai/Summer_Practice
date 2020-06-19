@@ -4,11 +4,13 @@ My tasks:
 
 - [x] Complete Elementary projects;
 - [x] Learn how to GitHub.
+- [ ] Complete Home projects;
 
 ***Code of projects placed under exercise name or in separated files*** 
 
 Completed projects:
 
+## Elementary
 - [x] Multiply (Intro);
 ```Python
 def mult_two(a: int, b: int) -> int:
@@ -114,4 +116,10 @@ def correct_sentence(text: str) -> str:
 ```Python
 def is_even(num: int) -> bool:
     return (True if num % 2 == 0 else False)
+```
+## Home
+- [x] Sum Numbers
+```Python
+def sum_numbers(text: str) -> int:
+    return sum(int(s) for s in text.split() if s.isdigit())
 ```
