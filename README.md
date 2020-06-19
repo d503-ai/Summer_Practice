@@ -97,3 +97,8 @@ def beginning_zeros(number: str) -> int:
 def nearest_value(values: set, one: int) -> int:
     return min(values, key=lambda x: (abs(one - x), x))
 ```
+- [x] Between Markers
+```Python
+def between_markers(text: str, begin: str, end: str) -> str:
+    return text[text.index(begin)+1:text.index(end)]
+```
