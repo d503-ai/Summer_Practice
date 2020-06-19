@@ -2,7 +2,7 @@
 
 My tasks:
 
-- [ ] Complete Elementary projects;
+- [x] Complete Elementary projects;
 - [x] Learn how to GitHub.
 
 ***Code of projects placed under exercise name or in separated files*** 
@@ -109,4 +109,9 @@ def correct_sentence(text: str) -> str:
     if string[-1] != ".":
         string += "."
     return string
+```
+- [x] Is Even
+```Python
+def is_even(num: int) -> bool:
+    return (True if num % 2 == 0 else False)
 ```
