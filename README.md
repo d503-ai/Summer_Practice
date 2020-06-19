@@ -5,7 +5,7 @@ My tasks:
 - [ ] Complete Elementary projects;
 - [x] Learn how to GitHub.
 
-***Code of projects placed under exercise's name or in separated files*** 
+***Code of projects placed under exercise name or in separated files*** 
 
 Completed projects:
 
