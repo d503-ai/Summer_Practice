@@ -141,3 +141,9 @@ def left_join(phrases: tuple) -> str:
     result = [i.replace("right", "left") for i in phrases] 
     return ','.join(result)
 ```
+- [x] Fisrt Word
+```Python
+def first_word(text: str) -> str:
+    text = text.replace('.', ' ').replace(',', ' ').strip()
+    return text.split()[0]
+```
