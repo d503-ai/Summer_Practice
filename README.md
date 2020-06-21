@@ -135,3 +135,9 @@ def checkio(array: list) -> int:
     else:
         return 0
 ```
+- [x] Right to Left
+```Python
+def left_join(phrases: tuple) -> str:
+    result = [i.replace("right", "left") for i in phrases] 
+    return ','.join(result)
+```
