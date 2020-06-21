@@ -1,5 +1,3 @@
-Code:
-
 def checkio(array: list) -> int:
     result = 0
     if array:
